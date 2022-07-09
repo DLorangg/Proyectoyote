@@ -26,5 +26,5 @@ nav{
     font-size: x-large;
     background-color: var(--marron);
     border-radius: var(--borde);
-
+    cursor:url(/img/cursor2.png), auto;
 }
