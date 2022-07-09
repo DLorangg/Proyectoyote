@@ -7,3 +7,8 @@
     --amarillo: lightyellow;
     --naranja: #BD7332;
 }
+body{
+    background-color: var(--marron);
+
+}
+
