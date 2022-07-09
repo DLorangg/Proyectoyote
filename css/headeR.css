@@ -7,4 +7,5 @@ nav{
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr;
     background-color: #18130d;
+    border-radius: 10px;
 }
