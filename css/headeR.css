@@ -32,3 +32,6 @@ nav{
     width: 1000px;
     border-radius: var(--borde);
 }
+.button:hover{
+    
+}
