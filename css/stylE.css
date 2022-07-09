@@ -9,6 +9,6 @@
 }
 body{
     background-color: var(--marron);
-
+    cursor:url(/img/cursor.png), auto;
 }
 
