@@ -30,4 +30,5 @@ nav{
 }
 #imgh{
     width: 1000px;
+    border-radius: var(--borde);
 }
