@@ -1,3 +1,7 @@
 :root{
     --amarillo: lightyellow;
 }
+@font-face{
+    font-family: Sarkowik;
+    src: url(/fuentes/Sarkowik.ttf);
+}
