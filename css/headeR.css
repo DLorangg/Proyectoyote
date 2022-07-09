@@ -33,5 +33,5 @@ nav{
     border-radius: var(--borde);
 }
 .button:hover{
-    
+    background-color: var(--naranja);
 }
