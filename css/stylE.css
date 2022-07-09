@@ -2,3 +2,8 @@
     margin: 0px;
     padding: 0px;
 }
+:root{
+    --marron: #18130d;
+    --amarillo: lightyellow;
+    --naranja: #BD7332;
+}
