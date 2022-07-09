@@ -11,4 +11,7 @@ body{
     background-color: var(--marron);
     cursor:url(/img/cursor.png), auto;
 }
+a{
+    cursor:url(/img/cursor2.png), auto;
+}
 
