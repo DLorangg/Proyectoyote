@@ -25,4 +25,6 @@ nav{
 .button{
     font-size: x-large;
     background-color: var(--marron);
+    border-radius: var(--borde);
+
 }
