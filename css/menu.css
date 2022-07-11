@@ -57,6 +57,8 @@ figure{
     background-color: var(--naranjaTraslucido);
     border-radius: var(--borde);
     transition: all 500ms ease-out;
+}
+.capa{
     opacity: 0;
     visibility: hidden;
     text-align: center;
