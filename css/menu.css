@@ -47,5 +47,5 @@ figure{
     width: 300px;
     height: 300px;
     border-radius: var(--borde);
-
+    cursor:url(/img/cursor2.png), auto;
 }
