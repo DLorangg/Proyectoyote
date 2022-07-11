@@ -30,5 +30,5 @@
 #menu{
     margin: auto;
     height: auto;
-
+    display: grid;
 }
