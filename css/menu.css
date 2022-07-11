@@ -7,4 +7,6 @@
 }
 #dos{
     background-color: var(--marron);
+    display: grid;
+
 }
