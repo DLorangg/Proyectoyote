@@ -5,3 +5,6 @@
     --naranjaTraslucido: rgba(212, 87, 29, 0.6);
     --borde: 10px;
 }
+#dos{
+    background-color: var(--marron);
+}
