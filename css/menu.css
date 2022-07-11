@@ -13,11 +13,13 @@
     grid-template-rows: 30px 1fr;
     gap: 20px 5px;
     border-radius: var(--borde);
-
 }
 .titulo{
     width: 1000px;
     background-color: var(--naranja);
     border-radius: var(--borde);
+}
+#titulomenu{
 
 }
+
