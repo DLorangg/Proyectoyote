@@ -24,4 +24,5 @@ a{
 }
 #derecha{
     position: fixed;
+    left: 100px;
 }
