@@ -18,5 +18,6 @@
 .titulo{
     width: 1000px;
     background-color: var(--naranja);
+    border-radius: var(--borde);
 
 }
