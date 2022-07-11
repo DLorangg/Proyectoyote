@@ -50,6 +50,6 @@ figure{
     cursor:url(/img/cursor2.png), auto;
 }
 .img{
-
+    position: absolute;
 }
 
