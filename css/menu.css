@@ -9,5 +9,6 @@
     background-color: var(--marron);
     display: grid;
     width: 1000px;
+    grid-template-columns: 1fr;
 
 }
