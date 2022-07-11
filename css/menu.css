@@ -19,9 +19,12 @@
     background-color: var(--naranja);
     border-radius: var(--borde);
 }
+
 #titulomenu{
-    position: relative;
-    left: 475px
+    font-size: 30px;
     height: 100%;
     border-radius: var(--borde);
+    position: relative;
+    left: 475px
+    
 }
