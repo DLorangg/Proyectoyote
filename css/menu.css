@@ -43,5 +43,5 @@
     border-radius: var(--borde);
 }
 figure{
-
+    position: relative;
 }
