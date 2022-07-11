@@ -23,5 +23,5 @@ a{
     background-color: var(--marron);
 }
 #derecha{
-    
+    position: fixed;
 }
