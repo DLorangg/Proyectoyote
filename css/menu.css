@@ -8,5 +8,6 @@
 #dos{
     background-color: var(--marron);
     display: grid;
+    width: 1000px;
 
 }
