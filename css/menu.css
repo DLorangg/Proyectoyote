@@ -41,5 +41,7 @@
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 20px;
     border-radius: var(--borde);
+}
+figure{
 
 }
