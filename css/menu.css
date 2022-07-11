@@ -56,6 +56,6 @@ figure{
     height: 100%;
     background-color: var(--naranjaTraslucido);
     border-radius: var(--borde);
-
+    transition: all 500ms ease-out;
 }
 
