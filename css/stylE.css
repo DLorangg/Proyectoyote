@@ -27,5 +27,5 @@ a{
     left: 100px;
 }
 #izquierda{
-
+    position: fixed;
 }
