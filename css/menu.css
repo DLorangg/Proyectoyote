@@ -59,6 +59,6 @@ figure{
     transition: all 500ms ease-out;
     opacity: 0;
     visibility: hidden;
-
+    text-align: center;
 }
 
