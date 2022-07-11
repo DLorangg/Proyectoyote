@@ -58,5 +58,7 @@ figure{
     border-radius: var(--borde);
     transition: all 500ms ease-out;
     opacity: 0;
+    visibility: hidden;
+
 }
 
