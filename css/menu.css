@@ -55,7 +55,7 @@ figure{
     height: 300px;
     border-radius: var(--borde);
     cursor:url(/img/cursor2.png), auto;
-
+    transition: all 500ms ease-out;
 }
 .capa{
     position: absolute;
