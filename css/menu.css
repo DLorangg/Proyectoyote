@@ -79,4 +79,5 @@ figure:hover>.capa{
 }
 .tipo{
     background-color: var(--naranja);
+    border: none;
 }
