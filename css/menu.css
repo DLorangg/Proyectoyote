@@ -82,4 +82,6 @@ figure:hover>.capa{
     border: none;
     transition: .3s ease all;
     border-radius: var(--borde);
+    width: 100%;
+
 }
