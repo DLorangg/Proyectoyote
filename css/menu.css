@@ -87,5 +87,6 @@ figure:hover>.capa{
     display: inline-flex;
     align-items: center;
     justify-content: center;
+    cursor:url(/img/cursor.png), auto;
 
 }
