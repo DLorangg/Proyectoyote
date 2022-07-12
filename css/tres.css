@@ -8,4 +8,6 @@
     display: grid;
     width: 1000px;
     grid-template-columns: 1fr 1fr;
+    grid-template-rows: 20px 1fr;
+
 }
