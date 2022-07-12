@@ -90,5 +90,5 @@ figure:hover>.capa{
     cursor:url(/img/cursor.png), auto;
 }
 h4{
-
+    float: right;
 }
