@@ -91,4 +91,6 @@ figure:hover>.capa{
 }
 h4{
     float: right;
+    border-radius: var(--borde);
+
 }
