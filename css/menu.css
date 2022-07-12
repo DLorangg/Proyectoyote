@@ -84,5 +84,5 @@ figure:hover>.capa{
     border-radius: var(--borde);
     width: 100%;
     font-size: 20px;
-
+    display: inline-flex;
 }
