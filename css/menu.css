@@ -85,4 +85,5 @@ figure:hover>.capa{
     width: 100%;
     font-size: 20px;
     display: inline-flex;
+    align-items: center;
 }
