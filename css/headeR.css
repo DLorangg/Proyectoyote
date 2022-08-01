@@ -29,7 +29,7 @@ nav{
     border-radius: var(--borde);
     cursor:url(/img/cursor2.png), auto;
 }
-#imgh{
+.imgh{
     width: 1000px;
     border-radius: var(--borde);
 }
