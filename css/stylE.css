@@ -21,6 +21,7 @@ a{
     margin: auto; 
     margin-top: 10px;
     background-color: var(--marron);
+    margin-bottom: 200px;
 }
 #derecha{
     position: fixed;

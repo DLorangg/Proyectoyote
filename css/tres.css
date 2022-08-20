@@ -7,14 +7,28 @@
     background-color:var(--marron);
     display: grid;
     width: 1000px;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     grid-template-rows: 20px 1fr;
     gap: 20px 5px;
 }
 .direcciones{
     cursor:url(/img/cursor2.png), auto;
     font-size: 30px;
+    left: 50%;
+}
+#direcciones{
+    display: grid;
+    grid-template-columns: 1fr 6fr 1fr;
 }
 .descripcion{
     font-size: 25px;
+}
+.titulosTres{
+    width: 1000px;
+    height: 30px;
+    background-color: var(--naranja);
+    border-radius: var(--borde);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
 }
