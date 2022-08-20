@@ -23,11 +23,3 @@ a{
     background-color: var(--marron);
     margin-bottom: 200px;
 }
-#derecha{
-    position: fixed;
-    left: 100px;
-}
-#izquierda{
-    position: fixed;
-    right: 100px;
-}
