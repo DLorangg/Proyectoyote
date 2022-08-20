@@ -35,5 +35,6 @@ nav{
     margin-bottom: 10px;
 }
 .button:hover{
+    transition: all 500ms ease-out;
     background-color: var(--naranja);
 }
