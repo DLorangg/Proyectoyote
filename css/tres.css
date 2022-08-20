@@ -17,8 +17,8 @@
     left: 50%;
 }
 #direcciones{
-    display: grid;
-    grid-template-columns: 1fr 6fr 1fr;
+    display: flex;
+    justify-content: center;
 }
 .descripcion{
     font-size: 25px;
