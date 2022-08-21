@@ -1,0 +1,46 @@
+:root{
+    --marron: #18130d;
+    --amarillo: lightyellow;
+    --naranja: #BD7332;
+    --naranjaTraslucido: rgba(212, 87, 29, 0.6);
+    --borde: 10px;
+}
+#producto{
+    display: flex; 
+}
+#titulo{
+    display: flex;
+    justify-content: center;
+    font-size: xx-large;
+    padding: 10px;
+    background-color: var(--naranja);
+    border-radius: var(--borde);
+
+}
+
+.img{
+    border-radius: var(--borde);
+    width: 500px;
+    height: 500px;
+}
+p{
+    padding: 5px;
+}
+.ingredientes{
+    margin-top: 50px;
+    text-align: center;
+    width: 500px;
+    height: auto;
+    font-size: xx-large;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+div{
+    height: 300px;
+}
+#fondo{
+    display: grid;
+    gap: 20px;
+
+}
