@@ -156,3 +156,7 @@ figure:hover>.capa{
     cursor:url(/img/cursor.png), auto;
     padding: 5px;
 }
+h4{
+    float: right;
+    border-radius: var(--borde);
+}
