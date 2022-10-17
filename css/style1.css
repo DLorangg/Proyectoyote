@@ -216,3 +216,6 @@ body::-webkit-scrollbar-thumb{
     display: flex;
     justify-content: center;
 }
+.descripcion{
+    font-size: 25px;
+}
