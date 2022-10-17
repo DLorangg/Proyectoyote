@@ -76,3 +76,8 @@ nav {
     gap: 20px 5px;
     border-radius: var(--borde);
 }
+.titulo{
+    width: 100%;
+    background-color: var(--naranja);
+    border-radius: var(--borde);
+}
