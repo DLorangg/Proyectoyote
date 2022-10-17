@@ -160,3 +160,16 @@ h4{
     float: right;
     border-radius: var(--borde);
 }
+@media screen and (max-width: 825px) {
+    #menu{
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(5,1fr) 10px;
+    }
+}
+@media screen and (max-width: 600px) {
+    #menu{
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(9,1fr) ;
+
+    }
+}
