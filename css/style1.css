@@ -25,6 +25,7 @@ body{
 }
 a{
     cursor:url(/img/cursor2.png), auto;
+    text-decoration: none;
 }
 /* Header */
 nav {
