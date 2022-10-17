@@ -197,4 +197,13 @@ body::-webkit-scrollbar-thumb{
     background: #BD7332;
     border-radius: 5px;
     border-right: 1px solid #BD7332
+} 
+/* Píe de pagina */
+#tres{
+    background-color:var(--marron);
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr;
+    grid-template-rows: 20px 1fr;
+    gap: 20px 5px;
 }
