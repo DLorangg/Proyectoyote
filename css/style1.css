@@ -74,6 +74,15 @@ nav {
     }
 }
 /* Estilos menu */
+#fondo{
+    width: 80%;
+    height: 80%;
+    max-width: 1000px;
+    margin: auto; 
+    margin-top: 10px;
+    background-color: var(--marron);
+    margin-bottom: 200px;
+}
 #dos{
     background-color: var(--marron);
     display: grid;
