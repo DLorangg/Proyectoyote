@@ -81,3 +81,10 @@ nav {
     background-color: var(--naranja);
     border-radius: var(--borde);
 }
+#titulomenu{
+    font-size: auto;
+    height: 100%;
+    border-radius: var(--borde);
+    position: relative;
+    text-align: center;
+}
