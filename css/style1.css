@@ -189,3 +189,12 @@ h4{
 
     }
 }
+/* Scroll personalizado */
+body::-webkit-scrollbar{
+    width: 8px;
+}
+body::-webkit-scrollbar-thumb{
+    background: #BD7332;
+    border-radius: 5px;
+    border-right: 1px solid #BD7332
+}
