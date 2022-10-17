@@ -38,3 +38,13 @@ nav {
     margin-top: 5px;
     margin-left: 15px;
 }
+.button {
+    width: 33%;
+    font-size: x-large;
+    background-color: var(--marron);
+    border: none;
+    border-radius: var(--borde);
+    cursor: url(/img/cursor2.png), auto;
+    padding: 20px;
+    flex: 1 1 none;
+}
