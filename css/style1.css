@@ -219,3 +219,12 @@ body::-webkit-scrollbar-thumb{
 .descripcion{
     font-size: 25px;
 }
+.titulosTres{
+    width: 100%;
+    height: 30px;
+    background-color: var(--naranja);
+    border-radius: var(--borde);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
