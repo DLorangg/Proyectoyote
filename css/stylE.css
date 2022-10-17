@@ -24,7 +24,6 @@ a{
     background-color: var(--marron);
     margin-bottom: 200px;
 }
-<<<<<<< HEAD
 body::-webkit-scrollbar{
     width: 8px;
 }
@@ -33,6 +32,3 @@ body::-webkit-scrollbar-thumb{
     border-radius: 5px;
     border-right: 1px solid #BD7332
 }
-=======
-
->>>>>>> 45dffe7bdbf469fd7ff562f2df6e1dbf56117b38
