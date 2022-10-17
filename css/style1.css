@@ -1,0 +1,18 @@
+:root{
+    --marron: #18130d;
+    --amarillo: lightyellow;
+    --naranja: #BD7332;
+    --naranjaTraslucido: rgba(212, 87, 29, 0.6);
+    --borde: 10px;
+}
+@font-face{
+    font-family: Sarkowik;
+    src: url(/fuentes/Sarkowik.ttf);
+}
+*{
+    font-family: Sarkowik;
+    color: var(--amarillo);
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
