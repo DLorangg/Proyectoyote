@@ -48,3 +48,8 @@ nav {
     padding: 20px;
     flex: 1 1 none;
 }
+.imgh {
+    width: 100%;
+    border-radius: var(--borde);
+    margin-bottom: 10px;
+}
