@@ -1,3 +1,4 @@
+/* Variables */
 :root{
     --marron: #18130d;
     --amarillo: lightyellow;
@@ -5,10 +6,12 @@
     --naranjaTraslucido: rgba(212, 87, 29, 0.6);
     --borde: 10px;
 }
+/* Fuente personalizada */
 @font-face{
     font-family: Sarkowik;
     src: url(/fuentes/Sarkowik.ttf);
 }
+/* Estilos */
 *{
     font-family: Sarkowik;
     color: var(--amarillo);
