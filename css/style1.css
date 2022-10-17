@@ -115,3 +115,11 @@ figure{
     grid-row: 1fr 1fr;
     gap: 10px;
 }
+.img{
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    border-radius: var(--borde);
+    cursor:url(/img/cursor2.png), auto;
+    transition: all 500ms ease-out;
+}
