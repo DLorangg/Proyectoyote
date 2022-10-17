@@ -207,3 +207,12 @@ body::-webkit-scrollbar-thumb{
     grid-template-rows: 20px 1fr;
     gap: 20px 5px;
 }
+.direcciones{
+    cursor:url(/img/cursor2.png), auto;
+    font-size: 30px;
+    left: 50%;
+}
+#direcciones{
+    display: flex;
+    justify-content: center;
+}
