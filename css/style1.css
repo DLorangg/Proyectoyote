@@ -88,3 +88,13 @@ nav {
     position: relative;
     text-align: center;
 }
+#menu{
+    margin: auto;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr) 10px;
+    gap: 0px 25px;
+    border-radius: var(--borde);
+    width: 100%;
+}
