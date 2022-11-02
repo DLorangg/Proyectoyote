@@ -1,3 +1,6 @@
+#mareo{
+    margin-top: 50px;
+}
 /* Variables */
 :root{
     --marron: #18130d;
@@ -92,7 +95,7 @@ nav {
     grid-template-rows: 30px 1fr;
     gap: 20px 5px;
     border-radius: var(--borde);
-}
+}     
 .titulo{
     width: 100%;
     background-color: var(--naranja);
@@ -243,4 +246,31 @@ body::-webkit-scrollbar-thumb{
     .direcciones{
         font-size: 20px;
     }
+}
+/* .animacion{
+    animation: saltar 1s infinite;
+    transform: translateY(0);
+
+}
+@keyframes saltar {
+    from{
+        transform: translateY(0);
+    }
+    to{
+        transform: translateY(250px);
+    }
+}
+   */
+
+.animacion {
+  animation: rotate 10s infinite linear;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
