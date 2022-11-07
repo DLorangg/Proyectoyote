@@ -247,6 +247,7 @@ body::-webkit-scrollbar-thumb{
         font-size: 20px;
     }
 }
+/* Desafio */
 /* .animacion{
     animation: saltar 1s infinite;
     transform: translateY(0);
@@ -273,4 +274,7 @@ body::-webkit-scrollbar-thumb{
   100% {
     transform: rotate(360deg);
   }
+}
+#form input{
+    color: black;
 }

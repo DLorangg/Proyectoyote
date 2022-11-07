@@ -197,28 +197,11 @@
                 </ul>
             </article>
         </section>
-        <div class="10 preguntas">
-            <h3 class="titulos">validacion</h3>
-            <p>responda</p>
-            <form action="" name="formulario" method="get">
-                <label for="rta" class="titulos">usted es un robot?</h4></label>
-                <input type="text" name="rta" id="rta" placeholder="Respuesta..." required>
-                <input type="submit" id="btn" name="btn" value="Enviar" required>
+        <div id="form">
+            <form action="#">
+                <input id="inp" type="text" placeholder="Nombre">
+                <input id="boton" type="button" value="Enviar">
             </form>
-            <script>
-                const formulario = document.getElementsByName('formulario')[0],
-                    elementos = formulario.elements,
-                    boton = document.getElementById('btn');
-                const validar = function() {
-                    if (formulario.rta.value =="si") {
-                        alert('muy mal')
-                    } else {
-                        alert('muy bien');
-                    }
-    
-                }
-                formulario.addEventListener("submit", validar)
-            </script>
         </div>
     </div>
 
