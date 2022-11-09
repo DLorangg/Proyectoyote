@@ -22,9 +22,8 @@ function moverPag(){
 }
 
 //movimiento del boton
-const boton = document.getElementById("boton");
-function movimiento(){
-     // check if input is bigger than 3
+function validate(){
+     // check if input is bigger than 2
     var value = document.getElementById('inp').value;
     if (value.length < 2) {
         alert("falso");
