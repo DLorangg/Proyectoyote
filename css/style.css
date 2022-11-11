@@ -275,6 +275,10 @@ body::-webkit-scrollbar-thumb{
     transform: rotate(360deg);
   }
 }
+/* Desafio 2 */
 #form input{
+    color: black;
+}
+.animacion1{
     color: black;
 }

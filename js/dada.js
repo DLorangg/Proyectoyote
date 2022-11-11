@@ -23,13 +23,14 @@ function moverPag(){
 
 //movimiento del boton
 function validate(){
-    // fijarse si el input es > a 2
+    // fijarse si el input es > a 1
     var value = document.getElementById('inp').value;
-    if (value.length < 2) {
-        alert("falso");
+    if (value.length < 1) {
+        alert("falso");/* Sacar cuando se termine */ 
+        document.getElementById('bot').classList.remove('animacion1');
         return false;
     }
-   alert("verdadero");
-   return true;
+    alert("verdadero");
+    document.getElementById('bot').classList.add('animacion1');
+    return true;
 }
-/*https://stackoverflow.com/questions/12164751/check-input-value-length*/
