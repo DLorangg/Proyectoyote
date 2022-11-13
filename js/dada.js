@@ -25,12 +25,10 @@ function moverPag(){
 function validate(){
     // fijarse si el input es > a 1
     var value = document.getElementById('inp').value;
-    if (value.length < 1) {
-        alert("falso");/* Sacar cuando se termine */ 
-        document.getElementById('bot').classList.remove('animacion1');
+    if (value.length < 1) { 
+        document.getElementById('bot').classList.add('animacion1');
         return false;
     }
-    alert("verdadero");
-    document.getElementById('bot').classList.add('animacion1');
+    document.getElementById('bot').classList.remove('animacion1');
     return true;
 }

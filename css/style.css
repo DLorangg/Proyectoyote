@@ -279,6 +279,6 @@ body::-webkit-scrollbar-thumb{
 #form input{
     color: black;
 }
-.animacion1{
-    color: black;
+.animacion1:hover{
+    transform: translateX(5vw);
 }
