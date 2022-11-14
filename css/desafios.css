@@ -378,7 +378,7 @@ h4 {
     color: #18130d;
     font-size: x-large;
     text-align: center;
-    animation: movimiento 5s infinite linear;
+    animation: movimiento 30s infinite linear;
 }
 
 .xd {
