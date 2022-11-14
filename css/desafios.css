@@ -311,7 +311,7 @@ h4 {
 }
 /* Desafio 1 */
 .animacion {
-    animation: rotate 20s infinite linear;
+    animation: rotate 10s infinite linear;
 }
 
 @keyframes rotate {
