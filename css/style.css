@@ -1,36 +1,64 @@
-#mareo{
-    margin-top: 50px;
-}
-/* Variables */
-:root{
+/* variables */
+
+:root {
     --marron: #18130d;
     --amarillo: lightyellow;
     --naranja: #BD7332;
-    --naranjaTraslucido: rgba(212, 87, 29, 0.6);
     --borde: 10px;
+    --naranjaTraslucido: #bd733286;
 }
-/* Fuente personalizada */
-@font-face{
+
+/* fuentes */
+
+@font-face {
     font-family: Sarkowik;
     src: url(/fuentes/Sarkowik.ttf);
 }
-/* Estilos */
-*{
-    font-family: Sarkowik;
-    color: var(--amarillo);
+
+/* estilo universal y estilos generales */
+
+* {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    font-family: Sarkowik;
+    color: var(--amarillo)
 }
-body{
+
+body {
     background-color: var(--marron);
-    cursor:url(/img/cursor.png), auto;
+    cursor: url(/img/cursor.png), auto;
 }
-a{
-    cursor:url(/img/cursor2.png), auto;
-    text-decoration: none;
+
+a {
+    cursor: url(/img/cursor2.png), auto;
 }
-/* Header */
+
+#fondo {
+    width: 80%;
+    height: 80%;
+    max-width: 1000px;
+    margin: auto;
+    margin-top: 10px;
+    background-color: var(--marron);
+    margin-bottom: 200px;
+}
+
+
+/* Scroll personalizado */
+
+body::-webkit-scrollbar {
+    width: 8px;
+}
+
+body::-webkit-scrollbar-thumb {
+    background: #BD7332;
+    border-radius: 5px;
+    border-right: 1px solid #BD7332
+}
+
+/* estilos header */
+
 nav {
     width: 100%;
     height: 100%;
@@ -44,11 +72,14 @@ nav {
     border-radius: var(--borde);
     box-sizing: border-box;
 }
+
 #logo {
     width: 33%;
     margin-top: 5px;
     margin-left: 15px;
+    padding: 10px;
 }
+
 .button {
     width: 33%;
     font-size: x-large;
@@ -59,15 +90,18 @@ nav {
     padding: 20px;
     flex: 1 1 none;
 }
+
 .imgh {
     width: 100%;
     border-radius: var(--borde);
     margin-bottom: 10px;
 }
+
 .button:hover {
     transition: all 500ms ease-out;
     background-color: var(--naranja);
 }
+
 @media screen and (max-width: 600px) {
     .button {
         font-size: 15px;
@@ -76,18 +110,78 @@ nav {
         height: 50%;
         margin-top: 20px;
     }
+    .button {
+        font-size: 15px;
+    }
+    nav {
+        height: 50%;
+        margin-top: 20px;
+    }
+    #logo {
+        width: 33%;
+        margin-top: 5px;
+        margin-left: 0px;
+        padding: 0px;
+    }
 }
-/* Estilos menu */
-#fondo{
-    width: 80%;
-    height: 80%;
-    max-width: 1000px;
-    margin: auto; 
-    margin-top: 10px;
+
+/* estilos pie de pagina */
+
+#tres {
     background-color: var(--marron);
-    margin-bottom: 200px;
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr;
+    grid-template-rows: 20px 1fr;
+    gap: 20px 5px;
 }
-#dos{
+
+.direcciones {
+    cursor: url(/img/cursor2.png), auto;
+    font-size: 30px;
+    left: 50%;
+}
+
+#direcciones {
+    display: flex;
+    justify-content: center;
+}
+
+.descripcion {
+    font-size: 25px;
+}
+
+.titulosTres {
+    width: 100%;
+    height: 30px;
+    background-color: var(--naranja);
+    border-radius: var(--borde);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (max-width: 825px) {
+    .descripcion {
+        font-size: 20px;
+    }
+    .direcciones {
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .descripcion {
+        font-size: 15px;
+    }
+    .direcciones {
+        font-size: 20px;
+    }
+}
+
+/* estilos de la seccion del menu */
+
+#dos {
     background-color: var(--marron);
     display: grid;
     width: 100%;
@@ -95,54 +189,62 @@ nav {
     grid-template-rows: 30px 1fr;
     gap: 20px 5px;
     border-radius: var(--borde);
-}     
-.titulo{
+}
+
+.titulo {
     width: 100%;
     background-color: var(--naranja);
     border-radius: var(--borde);
 }
-#titulomenu{
+
+#titulomenu {
+    font-size: auto;
     height: 100%;
     border-radius: var(--borde);
     position: relative;
     text-align: center;
 }
-#menu{
+
+#menu {
     margin: auto;
     height: auto;
     display: grid;
-    grid-template-columns: repeat(3,1fr);
-    grid-template-rows: repeat(3,1fr) 10px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr) 10px;
     gap: 0px 25px;
     border-radius: var(--borde);
     width: 100%;
 }
-.menu{
+
+.menu {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 20px;
     border-radius: var(--borde);
 }
-figure{
+
+figure {
     position: relative;
     width: 100%;
     height: 100%;
     border-radius: var(--borde);
-    cursor:url(/img/cursor2.png), auto;
+    cursor: url(/img/cursor2.png), auto;
     display: grid;
     grid-template-columns: 1fr;
     grid-row: 1fr 1fr;
     gap: 10px;
 }
-.img{
+
+.img {
     margin: auto;
     width: 100%;
     height: 100%;
     border-radius: var(--borde);
-    cursor:url(/img/cursor2.png), auto;
+    cursor: url(/img/cursor2.png), auto;
     transition: all 500ms ease-out;
 }
-.capa{
+
+.capa {
     position: absolute;
     top: 0;
     width: 100%;
@@ -155,14 +257,17 @@ figure{
     text-align: center;
     font-size: x-large;
 }
-.ingredientes{
+
+.ingredientes {
     margin-top: 20px;
 }
-figure:hover>.capa{
+
+figure:hover>.capa {
     opacity: 1;
     visibility: visible;
 }
-.tipo{
+
+.tipo {
     background-color: var(--naranja);
     border: none;
     transition: .3s ease all;
@@ -172,78 +277,35 @@ figure:hover>.capa{
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    cursor:url(/img/cursor.png), auto;
+    cursor: url(/img/cursor.png), auto;
     padding: 5px;
 }
-h4{
+
+h4 {
     float: right;
     border-radius: var(--borde);
 }
-@media screen and (max-width: 825px) {
-    #menu{
-        grid-template-columns: repeat(2,1fr);
-        grid-template-rows: repeat(5,1fr) 10px;
-    }
-}
-@media screen and (max-width: 600px) {
-    #menu{
-        grid-template-columns: 1fr;
-        grid-template-rows: repeat(9,1fr) ;
 
-    }
-}
-/* Scroll personalizado */
-body::-webkit-scrollbar{
-    width: 8px;
-}
-body::-webkit-scrollbar-thumb{
-    background: #BD7332;
-    border-radius: 5px;
-    border-right: 1px solid #BD7332
-} 
-/* Píe de pagina */
-#tres{
-    background-color:var(--marron);
-    display: grid;
-    width: 100%;
-    grid-template-columns: 1fr;
-    grid-template-rows: 20px 1fr;
-    gap: 20px 5px;
-}
-.direcciones{
-    cursor:url(/img/cursor2.png), auto;
-    font-size: 30px;
-    left: 50%;
-}
-#direcciones{
-    display: flex;
-    justify-content: left;
-}
-.descripcion{
-    font-size: 25px;
-}
-.titulosTres{
-    width: 100%;
-    height: 30px;
-    background-color: var(--naranja);
-    border-radius: var(--borde);
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-}
 @media screen and (max-width: 825px) {
-    .descripcion{
-        font-size: 20px;
-    }
-    .direcciones{
-        font-size: 25px;
+    #menu {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(5, 1fr) 10px;
     }
 }
+
 @media screen and (max-width: 600px) {
-    .descripcion{
+    #menu {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(9, 1fr);
+    }
+    .button {
         font-size: 15px;
     }
-    .direcciones{
-        font-size: 20px;
+    nav {
+        height: 50%;
+        margin-top: 20px;
     }
+}
+a{
+    text-decoration: none;
 }
