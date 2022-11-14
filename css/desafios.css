@@ -309,7 +309,7 @@ h4 {
         margin-top: 20px;
     }
 }
-/* Desafio 1 */
+/* Desafio */
 .animacion {
     animation: rotate 10s infinite linear;
 }
@@ -378,7 +378,7 @@ h4 {
     color: #18130d;
     font-size: x-large;
     text-align: center;
-    animation: movimiento 3s infinite linear;
+    animation: movimiento 5s infinite linear;
 }
 
 .xd {
