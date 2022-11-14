@@ -247,38 +247,3 @@ body::-webkit-scrollbar-thumb{
         font-size: 20px;
     }
 }
-/* Desafio */
-/* .animacion{
-    animation: saltar 1s infinite;
-    transform: translateY(0);
-
-}
-@keyframes saltar {
-    from{
-        transform: translateY(0);
-    }
-    to{
-        transform: translateY(250px);
-    }
-}
-   */
-
-.animacion {
-  animation: rotate 10s infinite linear;
-}
-
-@keyframes rotate {
-  0% {
-    transform: rotate(0);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
-}
-/* Desafio 2 */
-#form input{
-    color: black;
-}
-.animacion1:hover{
-    transform: translateX(5vw);
-}
