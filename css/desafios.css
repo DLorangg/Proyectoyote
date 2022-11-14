@@ -311,7 +311,7 @@ h4 {
 }
 /* Desafio */
 .animacion {
-    animation: rotate 10s infinite linear;
+    animation: rotate 20s infinite linear;
 }
 
 @keyframes rotate {
@@ -373,12 +373,17 @@ h4 {
 #form {
     margin: 100px;
 }
+#ingreso,#ingreso2{
+    color: #18130d;
+    font-size: x-large;
+    text-align: center;
+}
 
 .lol {
     color: #18130d;
     font-size: x-large;
     text-align: center;
-    animation: movimiento 30s infinite linear;
+    animation: movimiento 25s infinite linear;
 }
 
 .xd {

@@ -14,8 +14,8 @@ formulario.addEventListener('submit', function(e) {
     e.preventDefault();
     const ingreso = document.getElementById('ingreso2').value;
     if ((ingreso === "coyote")) {
-        document.getElementById('ingreso2').classList.add('xd');
+        document.getElementById('enviar').classList.add('xd');
     } else {
-        document.getElementById('ingreso2').classList.remove('xd');
+        document.getElementById('enviar').classList.remove('xd');
     }
 })
