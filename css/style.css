@@ -346,5 +346,6 @@ a{
     right: -30px;
 }
 .indicadores {
+    cursor: url(/img/cursor2.png), auto;
 
 }
