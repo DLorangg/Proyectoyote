@@ -7,5 +7,5 @@ window.addEventListener('load', function() {
             prev: '.anterior',
             next: '.siguiente'
         }
-    })
-})
+    });
+});
