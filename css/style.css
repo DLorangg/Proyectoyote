@@ -316,3 +316,8 @@ a{
 .carousel {
     overflow: hidden;
 }
+.imgExtra {
+    border-radius: var(--borde);
+    margin: 20px;
+    transition: all ease-out 0.2s;
+}
