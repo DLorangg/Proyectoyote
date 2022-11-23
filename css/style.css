@@ -322,5 +322,6 @@ a{
     transition: all ease-out 0.2s;
 }
 .imgExtra:hover {
-
+    transform: scale(1.02);
+    box-shadow: 10px 10px 0px var(--naranja);
 }
