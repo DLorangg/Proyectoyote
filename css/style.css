@@ -314,5 +314,5 @@ a{
     position: relative;
 } 
 .carousel {
-  
+    overflow: hidden;
 }
